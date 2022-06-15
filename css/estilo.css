@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fafae6
+}
+
+.corpo-pagina{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    align-items: center;
+    align-self: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.CardRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px 16px;
+    width: 70%;
+}
+
+.CardContainer{
+    margin: 0px 8px;
+}
+
+p{
+    padding: 4px 0px;
+}
+
+input{
+    width: 80%;
+    padding: 4px 0px;  
+    border: 1px solid rgb(164, 163, 163);
+}
+input[readonly] {
+    background-color: rgb(231, 231, 231);
+}
+
+select{
+    width: 80%;
+    padding: 4px 0px;
+}
+
+button{
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 4px 0px;
+    font-size: 18px;
+    width: 81%;
+    color: #443f45;
+    background-color: #fafae6;
+    border: 1px solid #443f45;
+}
+
+button:hover{
+    background-color: #443f45;
+    color: #fff;
+}
+
+.carrinho-aparecendo{
+    position: absolute;
+    right: 0vh;
+    top: 50vh;
+    width: 15vw;
+    border: 1px solid rgb(164, 163, 163);
+    background: #f3f3c5;
+}
+
+.carrinho-sumido{
+    position: absolute;
+    right: 0vh;
+    top: 50vh;
+    width: 15vw;
+    border: 1px solid rgb(164, 163, 163);
+    background: #f3f3c5;
+    display:none;
+}
